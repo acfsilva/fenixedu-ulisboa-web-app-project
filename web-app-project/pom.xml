@@ -70,7 +70,12 @@
 			<artifactId>bennu-versioning-runtime</artifactId>
 			<version>1.0.0-SNAPSHOT</version>
 		</dependency>
-
+		<!-- Temporary bennu version with fixes -->
+		<dependency>
+			<groupId>org.fenixedu</groupId>
+			<artifactId>bennu-core</artifactId>
+			<version>${version.org.fenixedu.bennu}</version>
+		</dependency>
 		<!-- Common application dependencies use to be in test-web-app pom -->
 		<dependency>
 			<groupId>org.fenixedu</groupId>
