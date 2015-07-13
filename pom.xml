@@ -18,11 +18,12 @@
 		<fenix.framework.generator.classname>com.qubit.extension.fenixframework.VersioningGeneratorOneBoxPerObject</fenix.framework.generator.classname>
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<version.academic>5.1.0-SNAPSHOT</version.academic>
+		<version.academic>5.2.0-SNAPSHOT</version.academic>
 		<version.learning>1.2.0-SNAPSHOT</version.learning>
 		<version.spaces>1.6.1</version.spaces>
 		<version.treasury>1.0.0-SNAPSHOT</version.treasury>
 		<version.academic.treasury>1.0.0-SNAPSHOT</version.academic.treasury>
+		<version.renderers>5.0.2</version.renderers>
 	</properties>
 
 	<name>UL web-app-project</name>
@@ -73,6 +74,18 @@
 			<artifactId>bennu-core</artifactId>
 			<version>${version.org.fenixedu.bennu}</version>
 		</dependency>
+
+		 <!-- Force renderers version to assure some fixes-->
+       <dependency>
+               <groupId>org.fenixedu</groupId>
+               <artifactId>bennu-renderers</artifactId>
+               <version>${version.renderers}</version>
+       </dependency>
+       <dependency>
+               <groupId>org.fenixedu</groupId>
+               <artifactId>bennu-struts</artifactId>
+               <version>${version.renderers}</version>
+       </dependency>
 		<!-- Common application dependencies use to be in test-web-app pom -->
 		<dependency>
 			<groupId>org.fenixedu</groupId>
