@@ -194,6 +194,7 @@
 				<configuration>
 					<path>/fenix</path>
 					<port>8080</port>
+					<uriEncoding>UTF-8</uriEncoding>
 					<systemProperties>
 						<JAVA_OPTS>-server -da -dsa -Xms2048m -Xmx2048m -XX:PermSize=256m
 							-XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:ParallelGCThreads=2
