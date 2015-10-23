@@ -9,7 +9,7 @@
 	<packaging>pom</packaging>
 
 	<properties>
-		<version.pt.ist.fenix.framework>2.6.1</version.pt.ist.fenix.framework>
+		<version.pt.ist.fenix.framework>2.6.2</version.pt.ist.fenix.framework>
 		<version.pt.ist.ff.maven.plugin>${version.pt.ist.fenix.framework}</version.pt.ist.ff.maven.plugin>
 		<version.org.fenixedu.bennu>3.4.2-SNAPSHOT</version.org.fenixedu.bennu>
 		<java.compilation.source.version>1.8</java.compilation.source.version>
