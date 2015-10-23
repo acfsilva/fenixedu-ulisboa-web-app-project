@@ -174,7 +174,7 @@
 			<plugin>
 				<groupId>com.qubit.solution.fenixedu</groupId>
 				<artifactId>bennu-label-overrider</artifactId>
-				<version>0.0.1-SNAPSHOT</version>
+				<version>1.0.0</version>
 				<executions>
 					<execution>
 						<goals>
