@@ -54,6 +54,36 @@
 			<artifactId>fenix-framework-backend-jvstm-ojb-runtime</artifactId>
 			<version>${version.pt.ist.fenix.framework}</version>
 		</dependency>
+		<dependency>
+			<groupId>pt.ist</groupId>
+			<artifactId>fenix-framework-backend-jvstm-ojb-code-generator</artifactId>
+			<version>${version.pt.ist.fenix.framework}</version>
+		</dependency>
+		<dependency>
+			<groupId>pt.ist</groupId>
+			<artifactId>fenix-framework-core-adt-bplustree</artifactId>
+			<version>${version.pt.ist.fenix.framework}</version>
+		</dependency>
+		<dependency>
+			<groupId>pt.ist</groupId>
+			<artifactId>fenix-framework-core-consistency-predicates</artifactId>
+			<version>${version.pt.ist.fenix.framework}</version>
+		</dependency>
+		<dependency>
+			<groupId>pt.ist</groupId>
+			<artifactId>fenix-framework-core-api</artifactId>
+			<version>${version.pt.ist.fenix.framework}</version>
+		</dependency>
+		<dependency>
+			<groupId>pt.ist</groupId>
+			<artifactId>fenix-framework-core-dml</artifactId>
+			<version>${version.pt.ist.fenix.framework}</version>
+		</dependency>
+		<dependency>
+			<groupId>pt.ist</groupId>
+			<artifactId>fenix-framework-core-dml-code-generator</artifactId>
+			<version>${version.pt.ist.fenix.framework}</version>
+		</dependency>
 		<!-- We need an implementation of JAX-RS -->
 		<dependency>
 			<groupId>org.glassfish.jersey.containers</groupId>
