@@ -173,6 +173,18 @@
 		<plugins>
 			<plugin>
 				<groupId>com.qubit.solution.fenixedu</groupId>
+				<artifactId>bennu-label-overrider</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>bennu-label-overrider-mojo</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>com.qubit.solution.fenixedu</groupId>
 				<artifactId>bennu-webservices-plugin</artifactId>
 				<version>1.0.0-SNAPSHOT</version>
 				<executions>
